@@ -1,5 +1,4 @@
-Advanced Routing
-================
+## Advanced Routing
 
 A tutorial on setting up advanced routes in Meteor using [Meteor Router](https://github.com/tmeasday/meteor-router "Meteor Router").
 
