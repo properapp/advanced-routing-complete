@@ -6,10 +6,10 @@
         <div class="container">
           <a class="brand" href="#">Advanced Routing</a>
           <ul class="nav">
-            <li class="active"><a href="{{homePath}}">Home</a></li>
-            <li><a href="{{aboutPath}}">About</a></li>
-            <li><a href="{{contactPath}}">Contact</a></li>
-            <li><a href="{{magicPath}}">Magic</a></li>
+            <li class="{{activeNav 'home'}}"><a href="{{homePath}}">Home</a></li>
+            <li class="{{activeNav 'about'}}"><a href="{{aboutPath}}">About</a></li>
+            <li class="{{activeNav 'contact'}}"><a href="{{contactPath}}">Contact</a></li>
+            <li class="{{activeNav 'magic'}}"><a href="{{magicPath}}">Magic</a></li>
           </ul>
         </div>
       </div>
